@@ -1,0 +1,160 @@
+Welcome to Git (version 1.9.4-preview20140929)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+muhanguzi@BERNALD ~ (master)
+$ cd desktop
+
+muhanguzi@BERNALD ~/desktop (master)
+$ ls
+3thrd year softwares
+Ava Find Professional 1.5.218.lnk
+Crack
+MASS MEMORY MUSIC
+Microsoft Office Enterprise 2010 Corporate Final (full activated)
+Microsoft Visual Studio 2010 Professional
+NAME.docx
+NOTES
+New folder (2)
+New folder (3)
+ShinaEnt
+ShinaEnt2015
+VB TUTORIALS
+VISUAL PROJECTS
+WampServer.lnk
+codes and library to use vb
+comp networks
+desktop.ini
+eclipse-standard-kepler-R-win32
+eclipse-standard-kepler-R-win32.zip
+java
+java notes
+jdk-7u45-windows-i586_4.exe
+lubega
+month
+tutorials for vb
+wd
+~$opolot.docx
+
+muhanguzi@BERNALD ~/desktop (master)
+$ cd month
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git init
+Reinitialized existing Git repository in c:/Users/muhanguzi/desktop/month/.git/
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        bin/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git add -f *
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git commit -m "try and catch and method"
+[master (root-commit) 3ea3048] try and catch and method
+ 4 files changed, 44 insertions(+)
+ create mode 100644 bin/Java.class
+ create mode 100644 bin/Work.class
+ create mode 100644 src/Java.java
+ create mode 100644 src/Work.java
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git commit
+On branch master
+Untracked files:
+        .classpath
+        .project
+        .settings/
+
+nothing added to commit but untracked files present
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository us
+ing
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git commit -m "catch,try and methodds"
+On branch master
+Untracked files:
+        .classpath
+        .project
+        .settings/
+
+nothing added to commit but untracked files present
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git init
+Reinitialized existing Git repository in c:/Users/muhanguzi/desktop/month/.git/
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git commit -m "try,catch and methods"
+On branch master
+Untracked files:
+        .classpath
+        .project
+        .settings/
+
+nothing added to commit but untracked files present
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git remote add origin https://github.com/sharonjus/month.git
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$ git push -u origin master
+Username for 'https://github.com': sharonjus
+Password for 'https://sharonjus@github.com':
+Counting objects: 8, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 2.01 KiB | 0 bytes/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/sharonjus/month.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+muhanguzi@BERNALD ~/desktop/month (master)
+$
